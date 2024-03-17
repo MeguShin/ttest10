@@ -3,7 +3,7 @@ lock "~> 3.18.0"
 
 set :application, "ttest07"
 set :repo_url, "https://github.com/MeguShin/ttest10.git"
-set :linked_files, %w{config/secrets.yml, .env}   # 4
+set :linked_files, %w{config/secrets.yml .env}   # 4
 set :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets public/uploads}   # 5
 set :keep_releases, 5   # 6
 set :rbenv_ruby, '3.0.1'    # 7
